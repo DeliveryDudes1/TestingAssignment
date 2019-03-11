@@ -9,13 +9,25 @@ namespace WebApplication1
 {
     public partial class _Default : Page
     {
+        public InsuranceService Service = new InsuranceService();
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            int age = int.Parse(Age.Text);
+            string gender = Gender.Text;
+
+            float premium = Service.CalcPremium(age, gender);
+
+            Label3.Text = premium.ToString();
+        }
     }
 
-    class InsuranceService
+    public class InsuranceService
     {
         public float CalcPremium(int age, string gender)
         {
