@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebApplication1;
+using fit;
 
 namespace FixtureTest
 {
-    public class Fixturetest
+    public class Fixturetest : ColumnFixture
     {
         public static InsuranceService SUT;
         public static int age;

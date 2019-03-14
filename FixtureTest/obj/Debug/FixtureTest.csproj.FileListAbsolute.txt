@@ -13,3 +13,5 @@ C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplicatio
 C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\obj\Debug\FixtureTest.csproj.CopyComplete
 C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\obj\Debug\FixtureTest.dll
 C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\obj\Debug\FixtureTest.pdb
+C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\bin\Debug\fit.dll
+C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\bin\Debug\fitSharp.dll
