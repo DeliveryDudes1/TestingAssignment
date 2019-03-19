@@ -147,3 +147,4 @@ C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplicatio
 C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
 C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache

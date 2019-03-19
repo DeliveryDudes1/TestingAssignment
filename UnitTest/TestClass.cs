@@ -21,7 +21,7 @@ namespace UnitTest
             SUT = new InsuranceService();
         }
 
-        [Test]
+        [Test(Description ="Male 12, premium 0")]
         public void Test1()
         {
             float result = SUT.CalcPremium(12, "male");
@@ -29,29 +29,83 @@ namespace UnitTest
             Assert.That(result, Is.EqualTo(0f));
         }
 
-        [Test]
+        [Test(Description = "Male 19, premium 6")]
         public void Test2()
         {
-            float result = SUT.CalcPremium(12, "female");
+            float result = SUT.CalcPremium(19, "male");
 
-            Assert.That(result, Is.EqualTo(0f));
+            Assert.That(result, Is.EqualTo(6.0f));
         }
 
-        [Test]
+        [Test(Description = "Male 38, premium 5")]
         public void Test3()
         {
-            float result = SUT.CalcPremium(22, "male");
+            float result = SUT.CalcPremium(38, "male");
 
-            Assert.That(result, Is.EqualTo(6f));
+            Assert.That(result, Is.EqualTo(5.0f));
 
         }
 
-        [Test]
+        [Test(Description = "Male 52, premium 2.5")]
         public void Test4()
         {
-            float result = SUT.CalcPremium(22, "female");
+            float result = SUT.CalcPremium(52, "male");
+
+            Assert.That(result, Is.EqualTo(2.5f));
+
+        }
+
+        [Test(Description = "female 17, premium 0")]
+        public void Test5()
+        {
+            float result = SUT.CalcPremium(17, "female");
+
+            Assert.That(result, Is.EqualTo(0f));
+
+        }
+
+        [Test(Description = "female 25, premium 5")]
+        public void Test6()
+        {
+            float result = SUT.CalcPremium(25, "female");
 
             Assert.That(result, Is.EqualTo(5f));
+
+        }
+
+        [Test(Description = "female 32, premium 3.50")]
+        public void Test7()
+        {
+            float result = SUT.CalcPremium(32, "female");
+
+            Assert.That(result, Is.EqualTo(3.5f));
+
+        }
+
+        [Test(Description = "female 52, premium 2.5")]
+        public void Test8()
+        {
+            float result = SUT.CalcPremium(52, "female");
+
+            Assert.That(result, Is.EqualTo(1.75f));
+
+        }
+
+        [Test(Description = "hello 52, premium 2.5")]
+        public void Test9()
+        {
+            float result = SUT.CalcPremium(52, "hello");
+
+            Assert.That(result, Is.EqualTo(0f));
+
+        }
+
+        [Test(Description = "man 10, premium 2.5")]
+        public void Test10()
+        {
+            float result = SUT.CalcPremium(10, "man");
+
+            Assert.That(result, Is.EqualTo(0f));
 
         }
     }
