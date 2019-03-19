@@ -13,5 +13,15 @@ C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplicatio
 C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\obj\Debug\FixtureTest.csproj.CopyComplete
 C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\obj\Debug\FixtureTest.dll
 C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\obj\Debug\FixtureTest.pdb
-C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\bin\Debug\fit.dll
+C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\bin\Debug\nunit.engine.dll
+C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\bin\Debug\nunit.engine.api.dll
+C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\bin\Debug\FixtureTest.dll.config
 C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\bin\Debug\fitSharp.dll
+C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\bin\Debug\UnitTest.dll
+C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\bin\Debug\nunit.framework.dll
+C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\bin\Debug\UnitTest.pdb
+C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\bin\Debug\nunit.framework.pdb
+C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\bin\Debug\nunit.framework.xml
+C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\FixtureTest\bin\Debug\fit.dll

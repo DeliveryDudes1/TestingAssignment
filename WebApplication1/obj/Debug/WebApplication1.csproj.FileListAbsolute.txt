@@ -143,7 +143,6 @@ C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplicatio
 C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
 C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
 C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
 C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
 C:\Users\arifm\OneDrive\Documents\Test and Quality\SystemUnderTest\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll

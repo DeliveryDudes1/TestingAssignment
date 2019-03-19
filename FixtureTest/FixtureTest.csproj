@@ -31,8 +31,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="fit">
-      <HintPath>..\..\..\SQA_Testing_2019\SQA_Testing_2019\fitnesse\dotnet2\fit.dll</HintPath>
+    <Reference Include="fit, Version=2.7.6776.35866, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FitSharp.2.7.0\lib\net452\fit.dll</HintPath>
+    </Reference>
+    <Reference Include="fitSharp, Version=2.7.6776.35865, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FitSharp.2.7.0\lib\net452\fitSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -48,10 +51,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\UnitTest\UnitTest.csproj">
+      <Project>{16c458b1-8b05-4f61-87ac-26d73eaf3401}</Project>
+      <Name>UnitTest</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WebApplication1\WebApplication1.csproj">
       <Project>{c828a704-3990-4735-b659-0ebb69be1a58}</Project>
       <Name>WebApplication1</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

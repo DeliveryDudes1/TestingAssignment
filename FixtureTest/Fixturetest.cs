@@ -14,7 +14,7 @@ namespace FixtureTest
         public static int age;
         public static string gender;
 
-        public float Premium()
+        public float premium()
         {
             SUT = new InsuranceService();
             return SUT.CalcPremium(age,gender);
